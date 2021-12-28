@@ -1,0 +1,7 @@
+nomecompleto = str(input('Digite seu nome completo:'))
+primeironome = nomecompleto.split()
+print(f'Seu nome tem {len(nomecompleto)} letras')
+print('Seu nome sem espaço tem:', len(nomecompleto.replace(" ", "")))
+print('Frase em minuscula: ', nomecompleto.lower())
+print('Frase em maiscula: ', nomecompleto.upper())
+print(f'Seu primeiro nome é: {primeironome[0]}')
