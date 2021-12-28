@@ -1,0 +1,12 @@
+times = ('Santo André','Palmeiras','São Paulo','Bragantino','Mirassol','Guarani','Novorizontino',
+         'Santos','Inter de Limeira','Corinthians')
+print('-' * 100)
+print('Esses são os 10 primeiros colocados da Tabela do Campeonato Paulista de Futebol', times)
+print('-' * 100)
+print(f'Os primeiros 5 times são: {times[0:5]}')
+print('-' * 100)
+print(f'Os ultimos 4 times são: {times[-4:]}')
+print('-' * 100)
+print(f'Times em ordem alfabéticas: {sorted(times)}')
+print('-' * 100)
+print(f'O ultimo colocado é: {times[-1:]}')
